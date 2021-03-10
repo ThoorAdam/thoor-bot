@@ -97,7 +97,7 @@ export class App {
     }
 
     private sendDeployMessage(type: string, project: string, environment: string, message: string) {
-        const embed = new MessageEmbed().setColor('#2eba9c').setTitle('Deploy started');
+        const embed = new MessageEmbed().setColor('#2eba9c').setTitle('Deploy completed');
 
         embed.addField('Project', project);
         embed.addField('Environment', environment);
